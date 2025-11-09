@@ -5,27 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sdkmanrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/CatalogServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/CatalogServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/TestCatalogServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/TestcontainersConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/CatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/CatalogServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/TestCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/TestCatalogServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/TestcontainersConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/TestcontainersConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,25 +31,40 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="35DAhJyuQ4rfZHNf1Rm7dpHoUGb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TestCatalogServiceApplication.executor": "Run",
-    "Maven.bookstore-app [package].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CatalogServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatalogServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CatalogServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookstore-app [package].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.CatalogServiceApplication">
+    <configuration name="CatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.louly.soft.bookstore.catalog.CatalogServiceApplication" />
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.louly.soft.bookstore.catalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.louly.soft.bookstore.catalog.TestCatalogServiceApplication" />
       <module name="catalog-service" />
@@ -74,8 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CatalogServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.louly.soft.bookstore.catalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.louly.soft.bookstore.catalog" />
+      <option name="MAIN_CLASS_NAME" value="com.louly.soft.bookstore.catalog.CatalogServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CatalogServiceApplication" />
+        <item itemvalue="JUnit.CatalogServiceApplicationTests" />
         <item itemvalue="Application.TestCatalogServiceApplication" />
       </list>
     </recent_temporary>
@@ -89,5 +110,16 @@
       <updated>1762634387450</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
