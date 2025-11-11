@@ -4,26 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="Create catalog-service walking singleton">
+      <change afterPath="$PROJECT_DIR$/Taskfile.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/ApplicationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/domain/PagedResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/domain/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/domain/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/domain/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/domain/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/domain/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/web/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/web/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/AbstractIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/domain/ProductRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/web/controllers/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/resources/test-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/louly/soft/bookstore/catalog/CatalogServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/CatalogServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/TestCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/TestCatalogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/TestcontainersConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/louly/soft/bookstore/catalog/TestcontainersConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sulaynd&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sulaynd/bookstore-app.git&quot;,
+    &quot;accountId&quot;: &quot;ad7f09d7-4a9b-4290-a3b4-73f616f85135&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -39,19 +74,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CatalogServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestCatalogServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CatalogServiceApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.bookstore-app [package].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CatalogServiceApplication.executor": "Run",
+    "Application.TestCatalogServiceApplication.executor": "Run",
+    "JUnit.CatalogServiceApplicationTests.executor": "Run",
+    "JUnit.ProductControllerTest.executor": "Run",
+    "JUnit.ProductControllerTest.shouldReturnEmptyProductsWhenPageNumberExceedsTotalPages.executor": "Run",
+    "JUnit.ProductControllerTest.shouldReturnProducts.executor": "Run",
+    "JUnit.ProductControllerTest.shouldReturnProductsWithCustomPagination.executor": "Run",
+    "JUnit.ProductControllerTest.shouldReturnProductsWithSizeGreaterThanTotalElements.executor": "Run",
+    "JUnit.ProductRepositoryTest.executor": "Run",
+    "Maven.bookstore-app [clean].executor": "Run",
+    "Maven.bookstore-app [install].executor": "Run",
+    "Maven.bookstore-app [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.CatalogServiceApplication">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.louly.soft.bookstore.catalog.domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.louly.soft.bookstore.catalog.domain" />
+      <recent name="com.louly.soft.bookstore.catalog.web.controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductControllerTest">
     <configuration name="CatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.louly.soft.bookstore.catalog.CatalogServiceApplication" />
       <module name="catalog-service" />
@@ -65,39 +124,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.louly.soft.bookstore.catalog.TestCatalogServiceApplication" />
+    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="catalog-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.louly.soft.bookstore.catalog.*" />
+          <option name="PATTERN" value="com.louly.soft.bookstore.catalog.web.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.louly.soft.bookstore.catalog.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.louly.soft.bookstore.catalog.web.controllers.ProductControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatalogServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductControllerTest.shouldReturnEmptyProductsWhenPageNumberExceedsTotalPages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="catalog-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.louly.soft.bookstore.catalog.*" />
+          <option name="PATTERN" value="com.louly.soft.bookstore.catalog.web.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.louly.soft.bookstore.catalog" />
-      <option name="MAIN_CLASS_NAME" value="com.louly.soft.bookstore.catalog.CatalogServiceApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.louly.soft.bookstore.catalog.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.louly.soft.bookstore.catalog.web.controllers.ProductControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnEmptyProductsWhenPageNumberExceedsTotalPages" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest.shouldReturnProductsWithCustomPagination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.louly.soft.bookstore.catalog.web.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.louly.soft.bookstore.catalog.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.louly.soft.bookstore.catalog.web.controllers.ProductControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnProductsWithCustomPagination" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest.shouldReturnProductsWithSizeGreaterThanTotalElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.louly.soft.bookstore.catalog.web.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.louly.soft.bookstore.catalog.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.louly.soft.bookstore.catalog.web.controllers.ProductControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnProductsWithSizeGreaterThanTotalElements" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductControllerTest" />
         <item itemvalue="Application.CatalogServiceApplication" />
-        <item itemvalue="JUnit.CatalogServiceApplicationTests" />
-        <item itemvalue="Application.TestCatalogServiceApplication" />
+        <item itemvalue="JUnit.ProductControllerTest.shouldReturnProductsWithSizeGreaterThanTotalElements" />
+        <item itemvalue="JUnit.ProductControllerTest.shouldReturnEmptyProductsWhenPageNumberExceedsTotalPages" />
+        <item itemvalue="JUnit.ProductControllerTest.shouldReturnProductsWithCustomPagination" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +205,15 @@
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create catalog-service walking singleton">
+      <option name="closed" value="true" />
+      <created>1762716403731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762716403731</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,5 +226,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create catalog-service walking singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create catalog-service walking singleton" />
   </component>
 </project>

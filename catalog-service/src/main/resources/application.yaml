@@ -10,6 +10,9 @@ server:
   port: 8081
   shutdown: graceful
 
+catalog:
+  page-size: 10
+
 management:
   endpoints:
     web:
