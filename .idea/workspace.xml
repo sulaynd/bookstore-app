@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="Fix flyway no migrations found">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="Fix flyway no migrations found" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762914403647</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix flyway no migrations found">
+      <option name="closed" value="true" />
+      <created>1762918056282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762918056282</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
