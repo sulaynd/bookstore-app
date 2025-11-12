@@ -15,7 +15,8 @@ spring:
 
   # Flyway completely disabled in Spring Boot - managed by Maven only
   flyway:
-    enabled: false
+    enabled: true
+    locations: classpath:db/migration
 
 server:
   port: 8081
