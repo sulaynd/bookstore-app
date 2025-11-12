@@ -5,7 +5,7 @@ on:
     paths:
       - catalog-service/** #then only change in catalog-service folder will get trigger
     branches:
-      - '**' #trigger for any branch
+      - 'main' #trigger for any branch
   pull_request:
     branches: [main]
 
