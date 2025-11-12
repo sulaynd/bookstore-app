@@ -5,7 +5,7 @@ on:
     paths:
       - catalog-service/** #then only change in catalog-service folder will get trigger
     branches:
-      - 'main' #trigger for any branch
+      - '**' #trigger for any branch
   pull_request:
     branches: [main]
 
@@ -34,9 +34,9 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           cache: 'maven'
-#
-#      - name: Make Maven wrapper executable
-#        run: chmod +x mvnw
+
+      - name: Make Maven wrapper executable
+        run: chmod +x mvnw
 
       - name: Build with Maven
         run: ./mvnw -ntp verify  # running the verify build(execute both unit and integration tests)
