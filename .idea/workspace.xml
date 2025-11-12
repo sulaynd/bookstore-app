@@ -438,7 +438,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762972050119</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="update catalog-service yml file">
+      <option name="closed" value="true" />
+      <created>1762972747152</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1762972747152</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update catalog-service yml file">
+      <option name="closed" value="true" />
+      <created>1762972867436</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1762972867436</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
