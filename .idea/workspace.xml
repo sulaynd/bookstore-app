@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="add project structure">
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="improve flyway migration">
       <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +92,10 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/catalog-service/src/main/resources/db.migration.postgresql" />
+      <recent name="$PROJECT_DIR$/catalog-service/src/main/resources/static" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.louly.soft.bookstore.catalog.domain" />
@@ -194,22 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00027" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762965499203</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1762965499203</updated>
-    </task>
-    <task id="LOCAL-00028" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762965685960</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1762965685960</updated>
     </task>
     <task id="LOCAL-00029" summary="update catalog-service yml file">
       <option name="closed" value="true" />
@@ -587,7 +573,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763053714802</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="add project structure">
+      <option name="closed" value="true" />
+      <created>1763057287672</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1763057287673</updated>
+    </task>
+    <task id="LOCAL-00077" summary="improve flyway migration">
+      <option name="closed" value="true" />
+      <created>1763058059879</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1763058059879</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -614,6 +616,7 @@
     <MESSAGE value="add absolute classpath" />
     <MESSAGE value="project structure" />
     <MESSAGE value="add project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project structure" />
+    <MESSAGE value="improve flyway migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve flyway migration" />
   </component>
 </project>
