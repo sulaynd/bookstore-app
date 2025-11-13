@@ -10,7 +10,7 @@ spring:
   flyway:
     baselineOnMigrate: true
     check-location: true
-    locations: filesystem:db/migration
+    locations: classpath:src/main/resources/db/migration
     schemas: public
     enabled: true
 
