@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="fix the cicd github action" />
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="add absolute classpath">
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,22 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Fix flyway no migrations found">
-      <option name="closed" value="true" />
-      <created>1762960249120</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1762960249120</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Fix flyway no migrations found">
-      <option name="closed" value="true" />
-      <created>1762960403100</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1762960403100</updated>
     </task>
     <task id="LOCAL-00014" summary="Fix flyway no migrations found">
       <option name="closed" value="true" />
@@ -582,7 +568,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763001663949</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="fix the cicd github action">
+      <option name="closed" value="true" />
+      <created>1763003414876</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1763003414876</updated>
+    </task>
+    <task id="LOCAL-00062" summary="add absolute classpath">
+      <option name="closed" value="true" />
+      <created>1763003445784</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1763003445785</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,6 +608,7 @@
     <MESSAGE value="adding flyway action" />
     <MESSAGE value="update catalog-service yml file" />
     <MESSAGE value="fix the cicd github action" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix the cicd github action" />
+    <MESSAGE value="add absolute classpath" />
+    <option name="LAST_COMMIT_MESSAGE" value="add absolute classpath" />
   </component>
 </project>
