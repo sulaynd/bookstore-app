@@ -41,10 +41,10 @@ jobs:
 
       - name: Display project structure
         run: ls -R
-#
-#      - name: Build with Maven
-#        run: ./mvnw -ntp verify  # running the verify build(execute both unit and integration tests)
-#        #run: mvn -B package --file pom.xml
+
+      - name: Build with Maven
+        run: ./mvnw -ntp verify  # running the verify build(execute both unit and integration tests)
+        #run: mvn -B package --file pom.xml
 #
 #      - if: ${{ github.ref == 'refs/heads/main'}} # only for main branch
 #        name: Login to Docker Hub
