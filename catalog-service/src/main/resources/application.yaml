@@ -9,7 +9,7 @@ spring:
   flyway:
     clean-disabled: true
     baseline-on-migrate: true
-    locations: filesystem:/db/migration
+    locations: filesystem:src/main/resources/db/migration/
 
 
 
