@@ -1,16 +1,20 @@
 spring:
   application:
     name: catalog-service
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+
+    open-in-view: false
+  flyway:
+    locations: classpath:/db/migration
+
   datasource:
     url: ${DB_URL:jdbc:postgresql://localhost:15432/postgres}
     username: ${DB_USERNAME:postgres}
     password: ${DB_PASSWORD:postgres}
-
-#  flyway:
-#    clean-disabled: true
-#    baseline-on-migrate: true
-#    locations: filesystem:src/main/resources/db/migration/
-#
 
 
 server:
