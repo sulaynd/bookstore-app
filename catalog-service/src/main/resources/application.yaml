@@ -14,9 +14,9 @@ spring:
 #        dialect: org.hibernate.dialect.PostgreSQLDialect
 
   # Flyway completely disabled in Spring Boot - managed by Maven only
-#  flyway:
-#  #  enabled: true
-#    locations: filesystem:db/migration
+  flyway:
+  #  enabled: true
+    locations: filesystem:db/migration
 
 server:
   port: 8081
