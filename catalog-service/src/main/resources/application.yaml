@@ -9,7 +9,7 @@ spring:
 
     open-in-view: false
   flyway:
-    locations: classpath:/db/migration
+    locations: classpath:/db/migration/{vendor}
 
   datasource:
     url: ${DB_URL:jdbc:postgresql://localhost:15432/postgres}
