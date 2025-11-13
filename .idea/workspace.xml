@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="update catalog-service yml file">
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/V1__create_products_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/V2__add_books_data.sql" afterDir="false" />
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="add migration files">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,30 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00032" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762972747152</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1762972747152</updated>
-    </task>
-    <task id="LOCAL-00033" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762972867436</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1762972867436</updated>
-    </task>
-    <task id="LOCAL-00034" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762973117051</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1762973117051</updated>
     </task>
     <task id="LOCAL-00035" summary="update catalog-service yml file">
       <option name="closed" value="true" />
@@ -590,7 +565,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763063792687</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="add migration files">
+      <option name="closed" value="true" />
+      <created>1763063936670</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1763063936670</updated>
+    </task>
+    <task id="LOCAL-00082" summary="add migration files">
+      <option name="closed" value="true" />
+      <created>1763064017790</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1763064017790</updated>
+    </task>
+    <task id="LOCAL-00083" summary="add migration files">
+      <option name="closed" value="true" />
+      <created>1763064087248</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1763064087248</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -618,6 +617,7 @@
     <MESSAGE value="add project structure" />
     <MESSAGE value="improve flyway migration" />
     <MESSAGE value="update catalog-service yml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update catalog-service yml file" />
+    <MESSAGE value="add migration files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add migration files" />
   </component>
 </project>
