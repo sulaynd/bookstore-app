@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="delete flyaway files">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="adding permission">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,38 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00039" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762978854514</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1762978854514</updated>
-    </task>
-    <task id="LOCAL-00040" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762984634640</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1762984634640</updated>
-    </task>
-    <task id="LOCAL-00041" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762984747556</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1762984747556</updated>
-    </task>
-    <task id="LOCAL-00042" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762984816561</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1762984816561</updated>
     </task>
     <task id="LOCAL-00043" summary="update catalog-service yml file">
       <option name="closed" value="true" />
@@ -589,7 +558,39 @@
       <option name="project" value="LOCAL" />
       <updated>1763066022431</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="delete flyaway files">
+      <option name="closed" value="true" />
+      <created>1763066268663</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1763066268663</updated>
+    </task>
+    <task id="LOCAL-00089" summary="delete flyaway files">
+      <option name="closed" value="true" />
+      <created>1763066356988</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1763066356988</updated>
+    </task>
+    <task id="LOCAL-00090" summary="adding flyaway files">
+      <option name="closed" value="true" />
+      <created>1763066397318</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1763066397318</updated>
+    </task>
+    <task id="LOCAL-00091" summary="adding permission">
+      <option name="closed" value="true" />
+      <created>1763066917864</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1763066917864</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -619,6 +620,8 @@
     <MESSAGE value="update catalog-service yml file" />
     <MESSAGE value="add migration files" />
     <MESSAGE value="delete flyaway files" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete flyaway files" />
+    <MESSAGE value="adding flyaway files" />
+    <MESSAGE value="adding permission" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding permission" />
   </component>
 </project>
