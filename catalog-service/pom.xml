@@ -19,6 +19,7 @@
 		<spotless-maven-plugin.version>3.0.0</spotless-maven-plugin.version>
 		<lombok.version>1.18.42</lombok.version>
 		<dockerImageName>sulaynd/bookstore-${project.artifactId}</dockerImageName>
+		<flywaydb.version>10.8.1</flywaydb.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -192,6 +193,12 @@
 						</goals>
 					</execution>
 				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-maven-plugin</artifactId>
+				<version>${flywaydb.version}</version>
 			</plugin>
 
 		</plugins>

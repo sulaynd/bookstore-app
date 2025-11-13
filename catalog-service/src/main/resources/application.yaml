@@ -6,11 +6,11 @@ spring:
     username: ${DB_USERNAME:postgres}
     password: ${DB_PASSWORD:postgres}
 
-  flyway:
-    clean-disabled: true
-    baseline-on-migrate: true
-    locations: filesystem:src/main/resources/db/migration/
-
+#  flyway:
+#    clean-disabled: true
+#    baseline-on-migrate: true
+#    locations: filesystem:src/main/resources/db/migration/
+#
 
 
 #  jpa:
