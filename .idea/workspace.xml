@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="add absolute classpath">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="project structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,30 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Improving yaml file">
-      <option name="closed" value="true" />
-      <created>1762961362836</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1762961362837</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Improving yaml file">
-      <option name="closed" value="true" />
-      <created>1762961519368</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1762961519368</updated>
-    </task>
-    <task id="LOCAL-00018" summary="adding flyway action">
-      <option name="closed" value="true" />
-      <created>1762963565346</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1762963565346</updated>
     </task>
     <task id="LOCAL-00019" summary="adding flyway action">
       <option name="closed" value="true" />
@@ -584,7 +558,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763004325234</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="add absolute classpath">
+      <option name="closed" value="true" />
+      <created>1763006712320</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1763006712321</updated>
+    </task>
+    <task id="LOCAL-00066" summary="project structure">
+      <option name="closed" value="true" />
+      <created>1763006748014</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1763006748014</updated>
+    </task>
+    <task id="LOCAL-00067" summary="project structure">
+      <option name="closed" value="true" />
+      <created>1763006791850</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1763006791850</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,6 +607,7 @@
     <MESSAGE value="update catalog-service yml file" />
     <MESSAGE value="fix the cicd github action" />
     <MESSAGE value="add absolute classpath" />
-    <option name="LAST_COMMIT_MESSAGE" value="add absolute classpath" />
+    <MESSAGE value="project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="project structure" />
   </component>
 </project>
