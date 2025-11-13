@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="update .gitignore file">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="updating files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,9 @@
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -198,30 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00044" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762985143942</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1762985143942</updated>
-    </task>
-    <task id="LOCAL-00045" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762985270780</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1762985270780</updated>
-    </task>
-    <task id="LOCAL-00046" summary="update catalog-service yml file">
-      <option name="closed" value="true" />
-      <created>1762985384154</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1762985384154</updated>
     </task>
     <task id="LOCAL-00047" summary="update catalog-service yml file">
       <option name="closed" value="true" />
@@ -591,7 +569,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763067386867</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="updating files">
+      <option name="closed" value="true" />
+      <created>1763069336813</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1763069336813</updated>
+    </task>
+    <task id="LOCAL-00094" summary="updating files">
+      <option name="closed" value="true" />
+      <created>1763069487110</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1763069487110</updated>
+    </task>
+    <task id="LOCAL-00095" summary="updating files">
+      <option name="closed" value="true" />
+      <created>1763069644037</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1763069644038</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -624,6 +626,7 @@
     <MESSAGE value="adding flyaway files" />
     <MESSAGE value="adding permission" />
     <MESSAGE value="update .gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore file" />
+    <MESSAGE value="updating files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating files" />
   </component>
 </project>
