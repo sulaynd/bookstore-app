@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="fix the cicd github action">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,22 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Fix flyway no migrations found">
-      <option name="closed" value="true" />
-      <created>1762914403647</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1762914403647</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Fix flyway no migrations found">
-      <option name="closed" value="true" />
-      <created>1762918056282</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1762918056282</updated>
     </task>
     <task id="LOCAL-00007" summary="Fix flyway no migrations found">
       <option name="closed" value="true" />
@@ -584,7 +569,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762999240567</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="fix the cicd github action">
+      <option name="closed" value="true" />
+      <created>1762999652858</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1762999652859</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fix the cicd github action">
+      <option name="closed" value="true" />
+      <created>1763000016507</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1763000016509</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

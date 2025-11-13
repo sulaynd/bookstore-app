@@ -5,6 +5,13 @@ spring:
     url: ${DB_URL:jdbc:postgresql://localhost:15432/postgres}
     username: ${DB_USERNAME:postgres}
     password: ${DB_PASSWORD:postgres}
+
+
+  flyway:
+    baseline-on-migrate: true
+    baseline-version: 0
+
+
 #  jpa:
 #    hibernate:
 #      ddl-auto: none  # Important: Let Maven Flyway handle all schema changes
@@ -28,10 +35,14 @@ spring:
 #    baselineOnMigrate: true
 #    baseline-on-migrate: true
 
+
 server:
   port: 8081
   shutdown: graceful
-
+logging:
+  level:
+    org:
+      flywaydb: DEBUG
 catalog:
   page-size: 10
 
