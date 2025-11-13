@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="project structure" />
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="add project structure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,30 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00019" summary="adding flyway action">
-      <option name="closed" value="true" />
-      <created>1762963624895</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1762963624895</updated>
-    </task>
-    <task id="LOCAL-00020" summary="adding flyway action">
-      <option name="closed" value="true" />
-      <created>1762963890502</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1762963890502</updated>
-    </task>
-    <task id="LOCAL-00021" summary="adding flyway action">
-      <option name="closed" value="true" />
-      <created>1762964979526</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1762964979526</updated>
     </task>
     <task id="LOCAL-00022" summary="update catalog-service yml file">
       <option name="closed" value="true" />
@@ -582,7 +561,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763006791850</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="add project structure">
+      <option name="closed" value="true" />
+      <created>1763006842255</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1763006842255</updated>
+    </task>
+    <task id="LOCAL-00069" summary="add project structure">
+      <option name="closed" value="true" />
+      <created>1763006887542</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1763006887542</updated>
+    </task>
+    <task id="LOCAL-00070" summary="add project structure">
+      <option name="closed" value="true" />
+      <created>1763007158363</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1763007158363</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -608,6 +611,7 @@
     <MESSAGE value="fix the cicd github action" />
     <MESSAGE value="add absolute classpath" />
     <MESSAGE value="project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="project structure" />
+    <MESSAGE value="add project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project structure" />
   </component>
 </project>
