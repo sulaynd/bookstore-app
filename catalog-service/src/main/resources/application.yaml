@@ -16,7 +16,17 @@ spring:
   # Flyway completely disabled in Spring Boot - managed by Maven only
   flyway:
   #  enabled: true
+  #  locations: filesystem:db/migration
+    baselineOnMigrate: true
+    baseline-on-migrate: true
+
+flyway:
+    url: ${DB_URL:jdbc:postgresql://localhost:15432/postgres}
+    user: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
     locations: filesystem:db/migration
+    baselineOnMigrate: true
+    baseline-on-migrate: true
 
 server:
   port: 8081
