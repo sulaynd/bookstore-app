@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="deleting yaml file">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
-    </list>
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="update yaml file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,22 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00057" summary="fix the cicd github action">
-      <option name="closed" value="true" />
-      <created>1763001025168</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1763001025169</updated>
-    </task>
-    <task id="LOCAL-00058" summary="fix the cicd github action">
-      <option name="closed" value="true" />
-      <created>1763001369375</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1763001369376</updated>
     </task>
     <task id="LOCAL-00059" summary="fix the cicd github action">
       <option name="closed" value="true" />
@@ -592,7 +574,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763087575191</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="update yaml file">
+      <option name="closed" value="true" />
+      <created>1763088431474</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1763088431474</updated>
+    </task>
+    <task id="LOCAL-00107" summary="update yaml file">
+      <option name="closed" value="true" />
+      <created>1763088615191</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1763088615191</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -629,10 +627,10 @@
     <MESSAGE value="add yaml file" />
     <MESSAGE value="adding main branch" />
     <MESSAGE value="adding main" />
-    <MESSAGE value="update yaml file" />
     <MESSAGE value="add properties files" />
     <MESSAGE value="deleting yaml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleting yaml file" />
+    <MESSAGE value="update yaml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update yaml file" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
