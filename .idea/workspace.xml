@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="improve yaml file" />
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="add apps yml file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,14 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00062" summary="add absolute classpath">
-      <option name="closed" value="true" />
-      <created>1763003445784</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1763003445785</updated>
     </task>
     <task id="LOCAL-00063" summary="add absolute classpath">
       <option name="closed" value="true" />
@@ -590,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763089282845</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="add apps yml file">
+      <option name="closed" value="true" />
+      <created>1763134833148</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1763134833149</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -605,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dockerizing catalog-service" />
     <MESSAGE value="truncate table products" />
     <MESSAGE value="Fix flyway no migrations found" />
     <MESSAGE value="Add flyway migrations" />
@@ -630,7 +629,8 @@
     <MESSAGE value="deleting yaml file" />
     <MESSAGE value="update yaml file" />
     <MESSAGE value="improve yaml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve yaml file" />
+    <MESSAGE value="add apps yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add apps yml file" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
