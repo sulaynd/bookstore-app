@@ -32,37 +32,37 @@ class ProductControllerTest extends AbstractIT {
                 .body("hasPrevious", is(false));
     }
 
-    //    @Test
-    //    void shouldGetProductByCode() {
-    //        String code = "P100";
-    //        given().contentType(ContentType.JSON)
-    //                .when()
-    //                .get("/api/products/{code}", code)
-    //                .then()
-    //                .statusCode(200)
-    //                .body("code", is("P100"))
-    //                .body("name", is("The Hunger Games"))
-    //                .body("description", is("Winning will make you famous. Losing means certain death..."))
-    //                .body("price", is(34.0f));
-    //    }
+        @Test
+        void shouldGetProductByCode() {
+            String code = "P100";
+            given().contentType(ContentType.JSON)
+                    .when()
+                    .get("/api/products/{code}", code)
+                    .then()
+                    .statusCode(200)
+                    .body("code", is("P100"))
+                    .body("name", is("The Hunger Games"))
+                    .body("description", is("Winning will make you famous. Losing means certain death..."))
+                    .body("price", is(34.0f));
+        }
 
-    @Test
-    void shouldGetProductByCode() {
-        Product product = given().contentType(ContentType.JSON)
-                .when()
-                .get("/api/products/{code}", "P100")
-                .then()
-                .statusCode(200)
-                .assertThat()
-                .extract()
-                .body()
-                .as(Product.class);
-
-        assertThat(product.code()).isEqualTo("P100");
-        assertThat(product.name()).isEqualTo("The Hunger Games");
-        assertThat(product.description()).isEqualTo("Winning will make you famous. Losing means certain death...");
-        assertThat(product.price()).isEqualTo(new BigDecimal("34.0"));
-    }
+//    @Test
+//    void shouldGetProductByCode() {
+//        Product product = given().contentType(ContentType.JSON)
+//                .when()
+//                .get("/api/products/{code}", "P100")
+//                .then()
+//                .statusCode(200)
+//                .assertThat()
+//                .extract()
+//                .body()
+//                .as(Product.class);
+//
+//        assertThat(product.code()).isEqualTo("P100");
+//        assertThat(product.name()).isEqualTo("The Hunger Games");
+//        assertThat(product.description()).isEqualTo("Winning will make you famous. Losing means certain death...");
+//        assertThat(product.price()).isEqualTo(new BigDecimal("34.0"));
+//    }
 
     @Test
     void shouldReturnNotFoundWhenProductCodeNotExists() {
