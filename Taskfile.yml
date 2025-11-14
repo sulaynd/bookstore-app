@@ -24,7 +24,6 @@ tasks:   # tasks sections
 
   build:
     cmds:
- #     - "{{.MVNW}} verify" # run this before creation apps.aml can run mvn install also
       - "{{.MVNW}} -pl catalog-service spring-boot:build-image -DskipTests" # run this after apps.yml creation
 #      - "{{.MVNW}} -pl order-service spring-boot:build-image -DskipTests"
 #      - "{{.MVNW}} -pl notification-service spring-boot:build-image -DskipTests"
