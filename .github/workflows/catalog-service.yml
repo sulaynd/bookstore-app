@@ -35,14 +35,14 @@ jobs:
       - name: Display project structure
         run: ls -R
 
-      - name: Build with Maven
-        run: ./mvnw -ntp verify
-
-      - name: Login to Docker Hub
-        uses: docker/login-action@v3
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+#      - name: Build with Maven
+#        run: ./mvnw -ntp verify
+#
+#      - name: Login to Docker Hub
+#        uses: docker/login-action@v3
+#        with:
+#          username: ${{ secrets.DOCKERHUB_USERNAME }}
+#          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
 #      - name: Build and Publish Docker Image
 #        run: |

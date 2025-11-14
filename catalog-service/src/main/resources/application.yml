@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: catalog-service
+  ######## Database Configuration  #########
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:15432/postgres}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+
+  jpa:
+   open-in-view: false
+
+server:
+  port: 8081
+  shutdown: graceful
+
+######## Catalog Service Configuration  #########
+catalog:
+  page-size: 10
+
+######## Actuator Configuration  #########
+management:
+  info:
+   git:
+    mode: full
+  endpoints:
+    web:
+     exposure:
+         include: '*'
+
+
+
