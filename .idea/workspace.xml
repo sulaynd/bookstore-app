@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="update yaml file">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
-    </list>
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="improve yaml file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,22 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00060" summary="fix the cicd github action">
-      <option name="closed" value="true" />
-      <created>1763001663949</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1763001663949</updated>
-    </task>
-    <task id="LOCAL-00061" summary="fix the cicd github action">
-      <option name="closed" value="true" />
-      <created>1763003414876</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1763003414876</updated>
     </task>
     <task id="LOCAL-00062" summary="add absolute classpath">
       <option name="closed" value="true" />
@@ -592,7 +574,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763088902203</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="improve yaml file">
+      <option name="closed" value="true" />
+      <created>1763089118605</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1763089118605</updated>
+    </task>
+    <task id="LOCAL-00110" summary="improve yaml file">
+      <option name="closed" value="true" />
+      <created>1763089282845</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1763089282845</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create catalog-service walking singleton" />
     <MESSAGE value="Dockerizing catalog-service" />
     <MESSAGE value="truncate table products" />
     <MESSAGE value="Fix flyway no migrations found" />
@@ -632,7 +629,8 @@
     <MESSAGE value="add properties files" />
     <MESSAGE value="deleting yaml file" />
     <MESSAGE value="update yaml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update yaml file" />
+    <MESSAGE value="improve yaml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve yaml file" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
