@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="update yaml file">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" beforeDir="false" />
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="add properties files">
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,22 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00052" summary="fix the cicd github action">
-      <option name="closed" value="true" />
-      <created>1762999160689</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1762999160689</updated>
-    </task>
-    <task id="LOCAL-00053" summary="fix the cicd github action">
-      <option name="closed" value="true" />
-      <created>1762999240567</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1762999240567</updated>
     </task>
     <task id="LOCAL-00054" summary="fix the cicd github action">
       <option name="closed" value="true" />
@@ -593,7 +576,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763085969769</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="add properties files">
+      <option name="closed" value="true" />
+      <created>1763086887887</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1763086887887</updated>
+    </task>
+    <task id="LOCAL-00102" summary="add properties files">
+      <option name="closed" value="true" />
+      <created>1763087046672</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1763087046673</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,6 +630,7 @@
     <MESSAGE value="adding main branch" />
     <MESSAGE value="adding main" />
     <MESSAGE value="update yaml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update yaml file" />
+    <MESSAGE value="add properties files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add properties files" />
   </component>
 </project>
