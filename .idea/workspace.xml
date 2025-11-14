@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="add properties files">
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="2d4a5a28-80ff-4826-b7a0-31e9dd98f3b2" name="Changes" comment="deleting yaml file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,31 +60,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CatalogServiceApplication.executor": "Run",
-    "Application.TestCatalogServiceApplication.executor": "Run",
-    "JUnit.CatalogServiceApplicationTests.executor": "Run",
-    "JUnit.ProductControllerTest.executor": "Run",
-    "JUnit.ProductControllerTest.shouldReturnEmptyProductsWhenPageNumberExceedsTotalPages.executor": "Run",
-    "JUnit.ProductControllerTest.shouldReturnProducts.executor": "Run",
-    "JUnit.ProductControllerTest.shouldReturnProductsWithCustomPagination.executor": "Run",
-    "JUnit.ProductControllerTest.shouldReturnProductsWithSizeGreaterThanTotalElements.executor": "Run",
-    "JUnit.ProductRepositoryTest.executor": "Run",
-    "Maven.bookstore-app [clean].executor": "Run",
-    "Maven.bookstore-app [install].executor": "Run",
-    "Maven.bookstore-app [package].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Volumes/SOFT/web/spring-boot/bookstore-app/catalog-service/src/main/resources",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CatalogServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCatalogServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CatalogServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.shouldReturnEmptyProductsWhenPageNumberExceedsTotalPages.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.shouldReturnProducts.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.shouldReturnProductsWithCustomPagination.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.shouldReturnProductsWithSizeGreaterThanTotalElements.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookstore-app [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookstore-app [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookstore-app [package].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/SOFT/web/spring-boot/bookstore-app/catalog-service/src/main/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.louly.soft.bookstore.catalog.domain" />
@@ -199,22 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762634387450</updated>
-    </task>
-    <task id="LOCAL-00054" summary="fix the cicd github action">
-      <option name="closed" value="true" />
-      <created>1762999652858</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1762999652859</updated>
-    </task>
-    <task id="LOCAL-00055" summary="fix the cicd github action">
-      <option name="closed" value="true" />
-      <created>1763000016507</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1763000016509</updated>
     </task>
     <task id="LOCAL-00056" summary="fix the cicd github action">
       <option name="closed" value="true" />
@@ -592,7 +576,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763087046673</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="add properties files">
+      <option name="closed" value="true" />
+      <created>1763087203761</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1763087203762</updated>
+    </task>
+    <task id="LOCAL-00104" summary="deleting yaml file">
+      <option name="closed" value="true" />
+      <created>1763087310053</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1763087310053</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -631,6 +631,15 @@
     <MESSAGE value="adding main" />
     <MESSAGE value="update yaml file" />
     <MESSAGE value="add properties files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add properties files" />
+    <MESSAGE value="deleting yaml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleting yaml file" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
