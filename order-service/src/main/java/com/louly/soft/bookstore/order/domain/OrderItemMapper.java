@@ -2,8 +2,9 @@ package com.louly.soft.bookstore.order.domain;
 
 import com.louly.soft.bookstore.order.domain.models.OrderItem;
 import org.mapstruct.Mapper;
+import org.mapstruct.ReportingPolicy;
 
-@Mapper(componentModel = "spring")
+@Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE, componentModel = "spring")
 public interface OrderItemMapper {
 
     OrderItem toDto(OrderItemEntity orderItemEntity);
