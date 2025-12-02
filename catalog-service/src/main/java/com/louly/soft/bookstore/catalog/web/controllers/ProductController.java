@@ -26,10 +26,27 @@ class ProductController {
 
     @GetMapping("/{code}")
     ResponseEntity<Product> getProductByCode(@PathVariable String code) {
-
+        /**
+         * Timeout testing
+         * This is for demonstration purposes only.
+         * sleep();
+         */
+        // sleep();
         return productService
                 .getProductByCode(code)
                 .map(ResponseEntity::ok)
                 .orElseThrow(() -> ProductNotFoundException.forCode(code));
+    }
+
+    /**
+     * For testing resilience4j timeouts
+     * This is for demonstration purposes only.
+     */
+    void sleep() {
+        try {
+            Thread.sleep(6000); // waiting for 6 seconds since timeout is for 5 seconds
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

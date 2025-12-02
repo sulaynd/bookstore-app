@@ -25,6 +25,7 @@ tasks:   # tasks sections
   build:
     cmds:
       - "{{.MVNW}} -pl catalog-service spring-boot:build-image -DskipTests" # run this after apps.yml creation
+      - "{{.MVNW}} -pl order-service spring-boot:build-image -DskipTests"
 
 
   start_infra: # start the infra yaml file
