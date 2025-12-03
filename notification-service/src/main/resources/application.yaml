@@ -1,0 +1,85 @@
+spring:
+  application:
+    name: notification-service
+
+  ######## Database Configuration  #########
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:35432/postgres}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+  jpa:
+    open-in-view: false
+    show-sql: true
+  ######## RabbitMQ Configuration  #########
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: ${RABBITMQ_PORT:5672}
+    username: ${RABBITMQ_USERNAME:guest}
+    password: ${RABBITMQ_PASSWORD:guest}
+
+############# Mail Properties ###########
+  mail:
+    host: ${MAIL_HOST:127.0.0.1}
+    port: ${MAIL_PORT:1025}
+    username: ${MAIL_USERNAME:PLACEHOLDER}
+    password: ${MAIL_PASSWORD:PLACEHOLDER}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+#  mail:
+#    host: smtp.gmail.com
+#    port: 587
+#    username: sulaynd@gmail.com
+#    password: ioug koma jath insr
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true
+#          starttls:
+#            enable: true
+######## Order Service Configuration  #########
+notifications:
+  support-email: sulaynd@gmail.com
+  order-events-exchange: orders-exchange
+  new-orders-queue: new-orders
+  delivered-orders-queue: delivered-orders
+  cancelled-orders-queue: cancelled-orders
+  error-orders-queue: error-orders
+
+
+server:
+  port: 8083
+  shutdown: graceful
+
+######## Catalog Service Configuration  #########
+#order:
+#  page-size: 10
+
+######## Actuator Configuration  #########
+management:
+  info:
+    git:
+      mode: full
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
+######### Actuator Configuration  #########
+#management.metrics.tags.application=${spring.application.name}
+#management.tracing.enabled=false
+#management.tracing.sampling.probability=1.0
+#
+########## Swagger Configuration  #########
+#swagger.api-gateway-url=http://localhost:8989/orders
+#
+######## OAuth2 Configuration  #########
+#OAUTH2_SERVER_URL=http://localhost:9191
+#REALM_URL=${OAUTH2_SERVER_URL}/realms/bookstore
+#spring.security.oauth2.resourceserver.jwt.issuer-uri=${REALM_URL}
+

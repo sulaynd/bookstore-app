@@ -12,12 +12,14 @@ target/
 .settings
 .springBeans
 .sts4-cache
-
+.DS_Stor
+.gitattributes
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+*.class
 
 ### NetBeans ###
 /nbproject/private/
@@ -25,6 +27,7 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
+/.DS_Store
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/

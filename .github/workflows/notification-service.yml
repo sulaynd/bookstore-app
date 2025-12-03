@@ -1,9 +1,9 @@
-name: Catalog Service
+name: Notification Service
 
 on:
   push:
     paths:
-      - catalog-service/**
+      - notification-service/**
     branches:
       - '**'
   pull_request:
@@ -14,8 +14,8 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     env:
-      working-directory: ./catalog-service
-      DOCKER_IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/bookstore-catalog-service
+      working-directory: ./notification-service
+      DOCKER_IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/bookstore-notification-service
     defaults:
       run:
         working-directory: ${{ env.working-directory }}
@@ -31,9 +31,6 @@ jobs:
 
       - name: Make Maven wrapper executable
         run: chmod +x mvnw
-
-    #  - name: Display project structure
-    #    run: ls -R
 
       - name: Build with Maven
         run: ./mvnw -ntp verify
