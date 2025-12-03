@@ -27,7 +27,7 @@ tasks:   # tasks sections
       - "{{.MVNW}} -pl catalog-service spring-boot:build-image -DskipTests" # run this after apps.yml creation
       - "{{.MVNW}} -pl order-service spring-boot:build-image -DskipTests"
       - "{{.MVNW}} -pl notification-service spring-boot:build-image -DskipTests"
-    #  - "{{.MVNW}} -pl api-gateway spring-boot:build-image -DskipTests"
+      - "{{.MVNW}} -pl api-gateway spring-boot:build-image -DskipTests"
     #  - "{{.MVNW}} -pl bookstore-webapp spring-boot:build-image -DskipTests"
 
 

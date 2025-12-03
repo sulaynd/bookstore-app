@@ -129,8 +129,8 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<!-- By default spring-boot-maven-plugin create a docker image suitable for AMD architecture
-				but right now Iam using apple macOS which are ARM architecture
+				<!-- By default, spring-boot-maven-plugin create a docker image suitable for AMD architecture
+				but right now Iam using Apple macOS which are ARM architecture
 				 In order to customize and make it work for my ARM architecture so use a different builder
 				 that is compatible with my ARM architecture
 				 On macOS we should configure the builder-->
@@ -193,11 +193,7 @@
 					</execution>
 				</executions>
 			</plugin>
-
-
-
 		</plugins>
-
 	</build>
 
 </project>

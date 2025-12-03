@@ -1,3 +1,72 @@
+server:
+  port: 8989
+  shutdown: graceful
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    tags:
+      application: ${spring.application.name}
+  tracing:
+    enabled: false
+    sampling:
+      probability: 1.0
+
 spring:
   application:
     name: api-gateway
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: catalog-service
+              uri: ${CATALOG_SERVICE_URL:http://localhost:8081}
+              predicates:
+                - Path=/catalog/**  # matching the incoming request ex: /catalog/api/products then /api/products is the segment
+                # this mean : http://localhost:8989/catalog/api/products forward to http://localhost:8081/api/products
+              filters:
+                - RewritePath=/catalog/?(?<segment>.*), /${segment}
+            - id: orders-service
+              uri: ${ORDER_SERVICE_URL:http://localhost:8082}
+              predicates:
+                - Path=/orders/**
+              filters:
+                - RewritePath=/orders/?(?<segment>.*), /${segment}
+            - id: openapi
+              uri: http://localhost:${server.port}
+              predicates:
+                - Path=/v3/api-docs/**
+              filters:
+                - RewritePath=/v3/api-docs/?(?<segment>.*), /${segment}/v3/api-docs
+          discovery:
+            locator:
+              enabled: true
+          globalcors: # basically browser does not allow to issue ajax request for different domain
+            cors-configurations:
+              '[/**]': # for all the API endpoint
+                allowed-origins: "*" # allowing the request for any domain
+                allowed-methods: "*" # allowing any method[GET, POST, PUT etc...]
+                allowed-headers: "*" # allowing any headers to pass
+                allow-credentials: false
+        #  default-filters:
+        #    - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Methods Access-Control-Allow-Headers RETAIN_FIRST
+
+  mvc:
+    problemdetails:
+      enabled: true
+
+springdoc: # customize to aggregate all the infos
+  swagger-ui:
+    use-root-path: true
+
+###### this is static configuration #####
+# to figure out dynamically create a swaggerConfig file
+#    urls:
+#      - name: catalog
+#        url: /v3/api-docs/catalog
+#      - name: orders
+#        url: /v3/api-docs/orders
