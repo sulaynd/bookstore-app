@@ -63,6 +63,7 @@ springdoc: # customize to aggregate all the infos
   swagger-ui:
     use-root-path: true
 
+
 ###### this is static configuration #####
 # to figure out dynamically create a swaggerConfig file
 #    urls:
