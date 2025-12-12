@@ -52,8 +52,8 @@ spring:
                 allowed-methods: "*" # allowing any method[GET, POST, PUT etc...]
                 allowed-headers: "*" # allowing any headers to pass
                 allow-credentials: false
-        #  default-filters:
-        #    - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Methods Access-Control-Allow-Headers RETAIN_FIRST
+          default-filters:
+            - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Methods Access-Control-Allow-Headers RETAIN_FIRST
 
   mvc:
     problemdetails:

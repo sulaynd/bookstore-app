@@ -108,22 +108,22 @@ services:
           memory: 700m
 #    labels:
 #      logging: "promtail"
-#
-#  bookstore-webapp:
-#    image: sivaprasadreddy/bookstore-webapp
-#    container_name: bookstore-webapp
-#    environment:
-#      - SPRING_PROFILES_ACTIVE=docker
-#      - BOOKSTORE_API_GATEWAY_URL=http://api-gateway:8989
+
+  bookstore-webapp:
+    image: sulaynd/bookstore-webapp
+    container_name: bookstore-webapp
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - BOOKSTORE_API_GATEWAY_URL=http://api-gateway:8989
 #      - OAUTH2_SERVER_URL=http://keycloak:9191
 #      - MANAGEMENT_TRACING_ENABLED=${MANAGEMENT_TRACING_ENABLED}
 #      - MANAGEMENT_ZIPKIN_TRACING_ENDPOINT=http://tempo:9411
-#    ports:
-#      - "8080:8080"
-#    restart: unless-stopped
-#    deploy:
-#      resources:
-#        limits:
-#          memory: 700m
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 700m
 #    labels:
 #      logging: "promtail"
