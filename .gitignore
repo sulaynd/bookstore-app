@@ -7,13 +7,11 @@
 .springBeans
 .sts4-cache
 .gitattributes
-.mvn
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-*.cmd
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -22,7 +20,6 @@
 /.nb-gradle/
 /.DS_Store
 build/
-mvnw
 
 ### VS Code ###
 .vscode/
