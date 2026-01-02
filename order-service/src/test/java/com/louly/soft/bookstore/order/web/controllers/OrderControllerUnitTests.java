@@ -13,13 +13,13 @@ import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.louly.soft.bookstore.order.domain.InvalidOrderException;
 import com.louly.soft.bookstore.order.domain.OrderService;
 import com.louly.soft.bookstore.order.domain.SecurityService;
 import com.louly.soft.bookstore.order.domain.models.OrderRequest;
@@ -35,6 +35,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.http.MediaType;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 
@@ -54,7 +55,7 @@ class OrderControllerUnitTests {
 
     @BeforeEach
     void setUp() {
-        given(securityService.getLoginUserName()).willReturn("john");
+        given(securityService.getLoginUserName()).willReturn("dieg");
     }
 
     /**
@@ -75,15 +76,18 @@ class OrderControllerUnitTests {
      */
     @ParameterizedTest(name = "[{index}]-{0}")
     @MethodSource("createOrderRequestProvider")
-    // @WithMockUser
+    // setting the mockUser into the security context
+    @WithMockUser
     void shouldReturnBadRequestWhenOrderPayloadIsInvalid(OrderRequest request) throws Exception {
         // we can take out the following line if we want also but let leave it here for clarity
-        // given(orderService.createOrder(eq("john"), any(OrderRequest.class))).willThrow(new
+        // given(orderService.createOrder(eq("dieg"), any(OrderRequest.class))).willThrow(new
         // InvalidOrderException(null));
-        when(orderService.createOrder(eq("john"), any(OrderRequest.class))).thenThrow(new InvalidOrderException(null));
-
+        // when(orderService.createOrder(eq("dieg"), any(OrderRequest.class))).thenThrow(new
+        // InvalidOrderException(null));
+        given(orderService.createOrder(eq("dieg"), any(OrderRequest.class))).willReturn(null);
         mockMvc.perform(post("/api/orders")
-                        //  .with(csrf())
+                        // adding CSRF token since POST request requires it
+                        .with(csrf())
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(request)))
                 .andExpect(status().isBadRequest());
@@ -97,6 +101,7 @@ class OrderControllerUnitTests {
     }
 
     @Test
+    @WithMockUser
     void shouldGetOrdersSuccessfully() throws Exception {
         var orderSummaries = TestDataFactory.getOrderSummaries();
         // Mock the service behavior
@@ -109,10 +114,11 @@ class OrderControllerUnitTests {
                 .andExpect(jsonPath("$[1].status", is(OrderStatus.CANCELLED.toString())));
 
         // Verify that the service method was called
-        verify(orderService, times(1)).findOrders("john");
+        verify(orderService, times(1)).findOrders("dieg");
     }
 
     @Test
+    @WithMockUser
     void shouldGetOrderByOrderNumberSuccessfully() throws Exception {
         String orderNumber = "290941ba-6bfb-446c-9930-b476fad0480c";
         var order = TestDataFactory.getOrder();
@@ -126,10 +132,10 @@ class OrderControllerUnitTests {
     }
 
     @Test
+    @WithMockUser
     void shouldThrowOrderNotFoundException() throws Exception {
         String orderNumber = "290941ba";
         when(orderService.findUserOrder(any(), any())).thenReturn(Optional.empty());
-        ;
 
         mockMvc.perform(get("/api/orders/" + orderNumber)).andExpect(status().isNotFound()); // Assert HTTP 404
     }

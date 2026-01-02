@@ -1,6 +1,16 @@
+######## OAuth2 Configuration  #########
+OAUTH2_SERVER_URL: http://localhost:9191
+REALM_URL: ${OAUTH2_SERVER_URL}/realms/bookstore
+
 spring:
   application:
     name: order-service
+######## OAuth2 Configuration  #########
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: ${REALM_URL}
   mail:
     host: smtp.gmail.com
     port: 587
@@ -57,7 +67,13 @@ management:
     web:
       exposure:
         include: '*'
-
+  metrics:
+    tags:
+      application: ${spring.application.name}
+  tracing:
+    enabled: false
+    sampling:
+      probability: 1.0
 
 ######### Actuator Configuration  #########
 #management.metrics.tags.application=${spring.application.name}
@@ -65,12 +81,10 @@ management:
 #management.tracing.sampling.probability=1.0
 #
 ########## Swagger Configuration  #########
-#swagger.api-gateway-url=http://localhost:8989/orders
-#
-######## OAuth2 Configuration  #########
-#OAUTH2_SERVER_URL=http://localhost:9191
-#REALM_URL=${OAUTH2_SERVER_URL}/realms/bookstore
-#spring.security.oauth2.resourceserver.jwt.issuer-uri=${REALM_URL}
+swagger:
+  api-gateway-url: http://localhost:8989/orders
+
+
 
 ###### Resilience4j for Circuit Breaker and Retry  #########
 ### Retry Configuration
