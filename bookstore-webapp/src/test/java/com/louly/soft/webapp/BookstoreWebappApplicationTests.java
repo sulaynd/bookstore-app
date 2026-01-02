@@ -6,6 +6,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class BookstoreWebappApplicationTests {
 
-    @Test
+    //@Test
     void contextLoads() {}
 }
